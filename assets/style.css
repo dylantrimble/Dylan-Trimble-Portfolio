@@ -1,0 +1,66 @@
+.rounded-circle {
+    border-radius: 50%!important;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-width: 3px !important;
+    border-style: solid;
+    border-color: #FFFFFF !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(133, 13, 13, 0.19);
+    vertical-align: center;
+}
+.name-main {
+    text-align: center;
+}
+.home {
+    color: white !important;
+    font-family:'Pacifico', cursive;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.name-main{
+    color: #DDDDDD;
+}
+.card-text, .name-main, .card-title{
+    font-family:  'Domine', serif;
+}
+.lang{
+    height: 180px;
+    width: 160px;
+}
+.lang-2 {
+    width: 120px
+}
+body {
+    background-color: #DDDDDD;
+}
+.jumbotron {
+    background-image: url("images/guages.jpg")
+}
+.home-screen{
+    display: show;
+}
+.linked{
+    margin-left: 3px;
+}
+.portfolio-screen {
+    margin-top: 80px;
+    display: none;
+}
+.contact-screen {
+    margin-top: 80px;
+    display: show;
+}
+#textChange {
+    animation-iteration-count: infinite;
+  }
+
+
+@media only screen and (max-width: 500px){
+    .about-crd{
+        max-height: 300px;
+        overflow: scroll;
+    }
+}
