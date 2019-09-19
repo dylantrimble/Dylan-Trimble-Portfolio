@@ -51,16 +51,19 @@ body {
 }
 .contact-screen {
     margin-top: 80px;
-    display: show;
+    display: none;
 }
 #textChange {
     animation-iteration-count: infinite;
   }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .about-crd{
         max-height: 300px;
         overflow: scroll;
+    }
+    .jumbotron {
+        margin-top: 50px;
     }
 }

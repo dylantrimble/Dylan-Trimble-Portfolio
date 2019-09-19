@@ -26,13 +26,13 @@ $("#contact").on("click", function(event){
 });
 
 var config = {
-    apiKey: "AIzaSyCMi-Wyub3lEvU7HsO4wrJJFwF7U3P16xo",
-    authDomain: "portfoliocontacts-2546a.firebaseapp.com",
-    databaseURL: "https://portfoliocontacts-2546a.firebaseio.com",
-    projectId: "portfoliocontacts-2546a",
-    storageBucket: "portfoliocontacts-2546a.appspot.com",
-    messagingSenderId: "348185402074",
-    appId: "1:348185402074:web:ef5593e61b02bee09ce3e3"
+    apiKey: "AIzaSyC4YlL-RD710bhLTP-EJpOV2syxB18px3I",
+    authDomain: "newcontacts-8c125.firebaseapp.com",
+    databaseURL: "https://newcontacts-8c125.firebaseio.com",
+    projectId: "newcontacts-8c125",
+    storageBucket: "",
+    messagingSenderId: "103094403036",
+    appId: "1:103094403036:web:ab84c26273c7d7fdcd1919"
   };
   
   firebase.initializeApp(config);
@@ -58,4 +58,9 @@ var config = {
     console.log(newUser.name);
     console.log(newUser.company);
     console.log(newUser.info);
+
+    $("#contact-name-input").val("");
+    $("#company-input").val("");
+    $("#number-input").val("");
+
 });
