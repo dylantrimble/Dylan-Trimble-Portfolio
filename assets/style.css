@@ -20,6 +20,16 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.about-crd{
+    max-height: 524px;
+}
+
+.language-box {
+    height: 524px;
+    overflow: scroll;
+}
+
 .name-main{
     color: #DDDDDD;
 }
@@ -30,8 +40,19 @@ html, body {
     height: 180px;
     width: 160px;
 }
+#css-image {
+    position: relative;
+    right: -40px;
+}
+.card-img-top {
+    height: 300px;
+}
 .lang-2 {
-    width: 120px
+    width: 120px;
+}
+#lang-3 {
+    position: absolute;
+    right: 40px;
 }
 body {
     background-color: #DDDDDD;
@@ -56,7 +77,9 @@ body {
 #textChange {
     animation-iteration-count: infinite;
   }
-
+.port-div {
+    height: 500px;
+}
 
 @media only screen and (max-width: 600px){
     .about-crd{
