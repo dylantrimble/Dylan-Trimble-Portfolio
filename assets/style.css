@@ -23,6 +23,7 @@ html, body {
 
 .about-crd{
     max-height: 524px;
+    overflow: scroll;
 }
 
 .language-box {
@@ -51,8 +52,7 @@ html, body {
     width: 120px;
 }
 #lang-3 {
-    position: absolute;
-    right: 40px;
+    flex: auto;
 }
 body {
     background-color: #DDDDDD;
@@ -82,8 +82,11 @@ body {
 }
 
 @media only screen and (max-width: 600px){
+    .language-box {
+        margin-top: 5px;
+    }
     .about-crd{
-        max-height: 300px;
+        max-height: 500px;
         overflow: scroll;
     }
     .jumbotron {
