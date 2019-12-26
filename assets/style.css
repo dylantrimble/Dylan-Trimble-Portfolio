@@ -23,12 +23,12 @@ html, body {
 
 .about-crd{
     max-height: 524px;
-    overflow: scroll;
+    overflow: scroll !important;
 }
 
 .language-box {
     height: 524px;
-    overflow: scroll;
+    overflow: scroll !important;
 }
 
 .name-main{
@@ -86,7 +86,7 @@ body {
         margin-top: 5px;
     }
     .about-crd{
-        max-height: 500px;
+        max-height: 500px !important;
         overflow: scroll;
     }
     .jumbotron {
