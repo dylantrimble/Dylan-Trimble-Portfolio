@@ -78,7 +78,11 @@ body {
     animation-iteration-count: infinite;
   }
 .port-div {
-    height: 500px;
+    height: 100%;
+}
+
+.profCard {
+    margin-bottom: 5px;
 }
 
 @media only screen and (max-width: 600px){
